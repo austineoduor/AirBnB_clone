@@ -16,7 +16,7 @@ import json
 
 class HBNBCommand(cmd.Cmd):
     """ The console for AirBnB,
-    written by Peter Wu and Bryan Leung """
+    """
 
     prompt = "(hbnb) "  # the intranet's required prompt
     classes = ["BaseModel", "User", "State", "City",
